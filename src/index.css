@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Anti Bakery brand colours + fonts (same tokens as the Next.js version) */
+@theme {
+  --color-primary: #664ca7;
+  --color-primary-dark: #553c94;
+  --color-lavender: #f8f5fc;
+  --color-line: #ebe6f4;
+  --color-pink: #f25769;
+  --color-pink-soft: #fde1eb;
+  --color-ink: #1c1a24;
+  --color-muted: #6f6b7c;
+
+  --font-serif: "Lora", Georgia, serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-script: "Allura", cursive;
+
+  --shadow-card: 0 6px 24px -10px rgba(102, 76, 167, 0.18);
+}
+
+body {
+  @apply bg-white font-sans text-ink antialiased;
+}
+
+@utility container-x {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-all whitespace-nowrap;
+}
+
+@utility btn-primary {
+  @apply bg-primary text-white hover:bg-primary-dark;
+}
+
+@utility input {
+  @apply h-11 w-full rounded-xl border border-line bg-white px-4 text-[15px] outline-none focus:border-primary;
+}

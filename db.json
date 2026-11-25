@@ -1,0 +1,13 @@
+{
+  "products": [
+    { "id": 1, "name": "Chocolate Cupcake", "price": 2.5, "category": "cupcakes", "image": "/images/cupcake.jpg" },
+    { "id": 2, "name": "Berry Cheesecake", "price": 3.75, "category": "cakes", "image": "/images/cheesecake.jpg" },
+    { "id": 3, "name": "Chocolate Brownie", "price": 2.99, "category": "brownies", "image": "/images/brownie.jpg" },
+    { "id": 4, "name": "Classic Doughnut", "price": 1.99, "category": "doughnuts", "image": "/images/doughnut.jpg" },
+    { "id": 5, "name": "Choco Chip Cookies", "price": 1.5, "category": "cookies", "image": "/images/cookies.jpg" },
+    { "id": 6, "name": "Pink Velvet Slice", "price": 2.25, "category": "pastries", "image": "/images/pastry.jpg" },
+    { "id": 7, "name": "Strawberry Dream Cake", "price": 24.0, "category": "cakes", "image": "/images/hero-cake.jpg" },
+    { "id": 8, "name": "Dark Chocolate Cake", "price": 28.0, "category": "cakes", "image": "/images/cta-cake.jpg" }
+  ],
+  "orders": []
+}
